@@ -22,7 +22,7 @@ mkdir -p logs
 if [ ! -f config.yaml ]; then
     cat > config.yaml << 'EOF'
 llm:
-  api_key: "your_anthropic_api_key_here"
+  api_key: "anthropic_api_key"
   model: "claude-3-haiku-20240307"
 
 storage:
