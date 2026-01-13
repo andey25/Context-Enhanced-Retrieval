@@ -24,7 +24,7 @@ accuracy by adding contextual understanding to document segments.
 ### Setup
 
 ``` bash
-git clone https://github.com/yourusername/contextual-retrieval.git
+git clone https://github.com/username/contextual-retrieval.git
 cd contextual-retrieval
 chmod +x setup.sh
 ./setup.sh
@@ -34,7 +34,7 @@ Configure your API key in `config.yaml`:
 
 ``` yaml
 llm:
-  api_key: "your_anthropic_api_key_here"
+  api_key: "anthropic_api_key"
   model: "claude-3-haiku-20240307"
 ```
 
@@ -89,7 +89,7 @@ print(answer)
 
 ``` yaml
 llm:
-  api_key: "your_key"
+  api_key: "key"
   model: "claude-3-haiku-20240307"
 
 storage:
